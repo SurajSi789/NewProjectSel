@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="74.124" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Login Page Functional Testing" name="Testing Login using valid credentials" time="56.802">
+<system-out><![CDATA[
+Given User is on the Login Page.............................................passed
+When User enters username...................................................passed
+And User enters password....................................................passed
+And User clicks on Login button.............................................passed
+Then User is redirected to Product page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Page Functional Testing" name="Testing Login using invalid username - #1.1" time="8.489">
+<system-out><![CDATA[
+Given User is on the Login Page.............................................passed
+When User enters invalid "10"...............................................passed
+And User enters password....................................................passed
+And User clicks on Login button.............................................passed
+Then User will get a error message..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Page Functional Testing" name="Testing Login using invalid username - #1.2" time="8.471">
+<system-out><![CDATA[
+Given User is on the Login Page.............................................passed
+When User enters invalid "20"...............................................passed
+And User enters password....................................................passed
+And User clicks on Login button.............................................passed
+Then User will get a error message..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
